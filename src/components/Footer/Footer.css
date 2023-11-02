@@ -1,0 +1,21 @@
+.footerDiv {
+    width: 100%;
+    background: #CCCCCC;
+}
+
+.footer {
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 60px;
+
+    & a {
+        font-size: 14px;
+        color: black;
+        display: inline-block;
+        margin: 0 10px;
+    }
+}

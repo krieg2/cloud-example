@@ -1,0 +1,192 @@
+.breadcrumb {
+    font-size: 8px;
+    color: #616161;
+}
+
+.content {
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+.hyperlink {
+    float: right;
+}
+
+.selector {
+    background-color: #E1E1E1;
+    border: 1px solid #E1E1E1;
+    border-radius: 4px;
+    padding: 5px 6px;
+    margin: 5px 6px;
+}
+
+.selector[name="selector"] {
+    margin-left: 10px;
+    width: 550px;
+}
+
+button {
+    margin: 0 20px;
+    padding: 10px 40px;
+    border-radius: 20px;
+    border: none;
+    background: #B9B9B9;
+    color: white;
+    cursor: pointer;
+}
+
+.section-one {
+    padding: 20px;
+    margin: 20px;
+    border-bottom: 1px solid lightgray;
+}
+
+.section-two {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 400px;
+}
+
+.section-three {
+    border-top: 1px solid lightgray;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+input {
+    background: #E1E1E1;
+    border: 0.5px solid lightgray;
+    border-radius: 3px;
+    padding: 6px;
+    margin: 5px;
+}
+
+.about {
+    margin-bottom: 100px;
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+}
+
+.input-container {
+    font-size: 12px;
+    width: 420px;
+}
+
+.label {
+    display: inline-block;
+    text-align: right;
+    width: 120px;
+}
+
+input[name="uid"], input[name="dln"] {
+    margin-right: 25px;
+    width: 100px;
+}
+
+input[name="aid"] {
+    width: 80px;
+}
+
+input[name="last-name"],
+input[name="given-name"],
+input[name="email"],
+.selector[name="country"] {
+    width: 200px;
+}
+
+input[name="street"], input[name="city"] {
+    width: 265px;
+}
+
+.selector[name="state"] {
+    width: 140px;
+    margin-right: 20px;
+}
+
+input[name="zip"] {
+    width: 80px;
+}
+
+input[name="telephone"] {
+    width: 100px;
+}
+
+input[name="dln"], input[name="dob"], input[name="date"] {
+    background-color: #FCFCFC;
+}
+
+.dateLabel {
+    margin-left: 350px;
+}
+
+.address {
+    margin-bottom: 20px;
+    & input, .selector {
+        background-color: #FCFCFC;
+    }
+}
+
+.contact {
+    & input {
+        background-color: #FCFCFC;
+    }
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    color: rgba(0, 0, 0, 0);
+    opacity: 1;
+    display: block;
+    background: url("../../calendar.png") no-repeat;
+    width: 14px;
+    height: 14px;
+    border-width: thin;
+}
+
+input[type="date"][value=""] {
+    content: "";
+    color: #FCFCFC;
+  }
+
+.letterH3 {
+    margin: 0;
+}
+
+textarea {
+    background-color: #FCFCFC;
+    border: 1px solid #E1E1E1;
+}
+
+.commentsContainer {
+   margin: 40px 0 300px 0;
+
+   & textarea {
+        margin-left: 5px;
+        vertical-align: top;
+   }
+}
+
+.submitLetterButton {
+    background: #2C2C2C;
+}
+
+.submitButtonContainer {
+    margin-top: 20px;
+    margin-left: 70px;
+}
